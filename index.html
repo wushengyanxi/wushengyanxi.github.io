@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Li Xinwu</title>
+    <meta
+      name="description"
+      content="Li Xinwu, security researcher at Tsinghua University. Research interests include automated penetration testing, LLM security, and agent security."
+    >
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: #454a50;
+        background: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial,
+          "PingFang SC", "Microsoft YaHei", sans-serif;
+        font-size: 16px;
+        line-height: 1.7;
+      }
+
+      a {
+        color: #2277a8;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .page {
+        width: min(100% - 56px, 1050px);
+        margin: 34px auto 72px;
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        gap: 54px;
+      }
+
+      .sidebar {
+        padding-top: 2px;
+      }
+
+      .avatar {
+        width: 196px;
+        height: 196px;
+        display: block;
+        margin: 0 auto 26px;
+        border-radius: 50%;
+        border: 4px solid #f3f3f3;
+        overflow: hidden;
+      }
+
+      .avatar img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: 52% 58%;
+        transform: scale(1.45);
+        transform-origin: 52% 58%;
+      }
+
+      .name {
+        margin: 0 0 14px;
+        color: #3f454b;
+        font-size: 20px;
+        line-height: 1.2;
+      }
+
+      .motto {
+        margin: 0 0 30px;
+        color: #4f555b;
+        font-size: 15px;
+      }
+
+      .links {
+        display: grid;
+        gap: 13px;
+        margin-bottom: 30px;
+        font-size: 14px;
+      }
+
+      .toc {
+        margin: 0;
+        padding-left: 26px;
+        color: #4f555b;
+        font-size: 14px;
+      }
+
+      .toc li + li {
+        margin-top: 10px;
+      }
+
+      main {
+        min-width: 0;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        color: #3f454b;
+        font-size: 28px;
+        line-height: 1.15;
+      }
+
+      section {
+        margin-top: 44px;
+      }
+
+      h2 {
+        margin: 0 0 18px;
+        padding-bottom: 8px;
+        color: #3f454b;
+        border-bottom: 1px solid #eeeeee;
+        font-size: 23px;
+        line-height: 1.3;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 24px;
+      }
+
+      li + li {
+        margin-top: 9px;
+      }
+
+      .aligned-list {
+        padding-left: 0;
+        list-style-position: inside;
+      }
+
+      .aligned-list li {
+        display: grid;
+        grid-template-columns: 110px minmax(0, 1fr);
+        gap: 14px;
+        align-items: baseline;
+        list-style: none;
+        position: relative;
+        padding-left: 24px;
+      }
+
+      .aligned-list li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+      }
+
+      .date {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        color: #3f454b;
+        font-weight: 400;
+        white-space: nowrap;
+      }
+
+      .date::after {
+        content: "：";
+      }
+
+      footer {
+        margin-top: 58px;
+        padding-top: 16px;
+        border-top: 1px solid #eeeeee;
+        color: #777777;
+        font-size: 13px;
+      }
+
+      @media (max-width: 720px) {
+        .page {
+          grid-template-columns: 1fr;
+          gap: 28px;
+          margin-top: 24px;
+        }
+
+        .sidebar {
+          text-align: center;
+        }
+
+        .links {
+          justify-items: center;
+        }
+
+        .toc {
+          display: inline-block;
+          text-align: left;
+        }
+
+        .aligned-list li {
+          grid-template-columns: 104px minmax(0, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <aside class="sidebar">
+        <div class="avatar">
+          <img src="assets/profile.jpg" alt="Li Xinwu">
+        </div>
+        <h2 class="name">Li Xinwu</h2>
+        <p class="motto">吾心未寂，吾生焉息</p>
+
+        <nav class="links" aria-label="个人链接">
+          <a href="https://wushengyanxi.github.io/">Website</a>
+          <a href="https://github.com/wushengyanxi">GitHub</a>
+        </nav>
+
+        <ul class="toc">
+          <li><a href="#education">教育背景</a></li>
+          <li><a href="#experience">工作经历</a></li>
+          <li><a href="#research">研究兴趣</a></li>
+        </ul>
+      </aside>
+
+      <main>
+        <h1>Li Xinwu</h1>
+
+        <section id="education">
+          <h2>教育背景</h2>
+          <ul class="aligned-list">
+            <li>
+              <span class="date">2023 - 2024</span>
+              <span>伦敦大学皇家霍洛威学院，信息安全硕士</span>
+            </li>
+            <li>
+              <span class="date">2019 - 2023</span>
+              <span>伦敦大学皇家霍洛威学院，信息安全本科</span>
+            </li>
+          </ul>
+        </section>
+
+        <section id="experience">
+          <h2>工作经历</h2>
+          <ul class="aligned-list">
+            <li>
+              <span class="date">2026 - now</span>
+              <span>清华大学，网络科学与网络空间研究院</span>
+            </li>
+            <li>
+              <span class="date">2025 - 2026</span>
+              <span>北京墨云科技有限公司</span>
+            </li>
+            <li>
+              <span class="date">2024 - 2025</span>
+              <span>北京长亭科技有限公司</span>
+            </li>
+          </ul>
+        </section>
+
+        <section id="research">
+          <h2>研究兴趣</h2>
+          <ul>
+            <li>自动化渗透测试</li>
+            <li>大模型安全</li>
+            <li>智能体安全</li>
+          </ul>
+        </section>
+
+        <footer>
+          © 2026 Li Xinwu
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
