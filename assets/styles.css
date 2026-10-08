@@ -199,9 +199,8 @@ h3 {
 }
 
 .institution-summary {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  position: relative;
+  display: block;
   width: fit-content;
   max-width: 100%;
   list-style: none;
@@ -214,7 +213,9 @@ h3 {
 
 .institution-summary::before {
   content: "";
-  flex-shrink: 0;
+  position: absolute;
+  top: 10px;
+  left: -16px;
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
   border-left: 6px solid #737980;
@@ -225,18 +226,19 @@ h3 {
 }
 
 .institution-links {
-  margin: 14px 0 0 16px;
+  margin: 10px 0 0;
   padding: 0;
   list-style: none;
 }
 
 .institution-links li + li {
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .institution-links h4 {
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .education-degree .entry-header h3 {
@@ -280,7 +282,8 @@ h3 {
 
 .project-list {
   margin: 14px 0 0;
-  padding-left: 20px;
+  padding-left: 0;
+  list-style-position: outside;
   font-size: 15px;
 }
 
