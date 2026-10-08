@@ -241,6 +241,12 @@ h3 {
   font-weight: 400;
 }
 
+.institution-note {
+  margin: 6px 0 8px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
 .education-degree {
   margin-left: 20px;
 }
