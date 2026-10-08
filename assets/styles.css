@@ -241,6 +241,10 @@ h3 {
   font-weight: 400;
 }
 
+.education-degree {
+  margin-left: 20px;
+}
+
 .education-degree .entry-header h3 {
   font-size: 15px;
   font-weight: 400;
@@ -282,7 +286,7 @@ h3 {
 
 .project-list {
   margin: 14px 0 0;
-  padding-left: 0;
+  padding-left: 20px;
   list-style-position: outside;
   font-size: 15px;
 }
