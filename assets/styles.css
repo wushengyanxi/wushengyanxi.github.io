@@ -27,7 +27,8 @@ a:hover {
 }
 
 a:focus-visible,
-button:focus-visible {
+button:focus-visible,
+summary:focus-visible {
   outline: 2px solid #2277a8;
   outline-offset: 5px;
 }
@@ -191,6 +192,60 @@ h3 {
   font-size: 17px;
   font-weight: 600;
   line-height: 1.6;
+}
+
+.institution-details {
+  margin-bottom: 20px;
+}
+
+.institution-summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  max-width: 100%;
+  list-style: none;
+  cursor: pointer;
+}
+
+.institution-summary::-webkit-details-marker {
+  display: none;
+}
+
+.institution-summary::before {
+  content: "";
+  flex-shrink: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 6px solid #737980;
+}
+
+.institution-details[open] > .institution-summary::before {
+  transform: rotate(90deg);
+}
+
+.institution-links {
+  margin: 14px 0 0 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.institution-links li + li {
+  margin-top: 8px;
+}
+
+.institution-links h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.education-degree .entry-header h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.education-degree .entry-detail {
+  margin-top: 9px;
 }
 
 .entry + .entry {
