@@ -40,6 +40,7 @@
     logsDescription: "I led the development of the log-matching module in the company’s breach and attack simulation product. The module supports automatically or manually ingesting logs from security products in the system under test into the attack simulation system. It supports more than ten categories of security products, including WAF, IDS, and IPS, and provides compatibility adaptations for specific products from dozens of major security vendors. In practical use, the system can precisely match over 10,000 simulated attacks against hundreds of thousands of security log entries within minutes. This functionality greatly improves the product’s assessment confidence and supports customers’ security response work, giving the product a significant competitive advantage among comparable products in China.",
     chaitin: "Beijing Chaitin Technology Co., Ltd.",
     chaitinIntro: "About Chaitin",
+    chaitinIntroUrl: "https://www.chaitin.cn/en/intro",
     chaitinRole: "Security R&D Engineer · Intern",
     wafTitle: "Semi-automated WAF Rule Generation",
     wafDescription: "I implemented semi-automated rule generation for the company’s WAF product. This functionality allows operations staff to create protection rules for complex attack payloads through simple point-and-click selections, reducing their average time to create a rule from several minutes per rule to approximately 20 seconds per rule.",
@@ -59,6 +60,7 @@
     "data-i18n": null,
     "data-i18n-alt": "alt",
     "data-i18n-aria-label": "aria-label",
+    "data-i18n-href": "href",
   };
 
   for (const [dataAttribute, attribute] of Object.entries(translatableAttributes)) {
